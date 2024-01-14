@@ -1,0 +1,26 @@
+.TransactStatusContainer {
+  width: fit-content;
+  margin: 5% auto;
+}
+.TextStatus {
+  font-family: "Anonymous Pro", monospace;
+  text-align: center;
+  font-size: 20px;
+}
+.TextStatus h2 {
+  padding: 10px;
+}
+.Product {
+  margin-top: 60px;
+  text-align: center;
+}
+.Product img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.Product h3 {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,27 @@
+GET http://localhost:3000/transacts
+
+###
+GET http://localhost:3000/transacts/2
+
+###
+POST http://localhost:3000/transacts
+Content-Type: application/json
+
+{
+    "id_mobil": "5",
+    "id_user": "5"
+}
+
+###
+PATCH http://localhost:3000/cars/2
+Content-Type: application/json
+
+{
+   "nama_mobil": "Mc Laren",
+    "jenis_mobil": "MSO 720s",
+    "gambar_mobil": "https://th.bing.com/th/id/OIP.4qKm2lVvigBwC_BNXjUcEwHaEK?rs=1&pid=ImgDetMain",
+    "harga_rental": "90"
+}
+
+###
+DELETE http://localhost:3000/users/5

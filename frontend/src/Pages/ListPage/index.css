@@ -1,0 +1,15 @@
+.listTitle {
+  margin: 50px 0 50px 90px;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.listWrapper {
+  margin: auto;
+  list-style: none;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

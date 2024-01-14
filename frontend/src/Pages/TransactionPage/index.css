@@ -1,0 +1,83 @@
+.TransactContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.TextHeader {
+  font-family: "Anonymous Pro", monospace;
+  font-size: 25px;
+  margin: 0 0 50px 10%;
+}
+
+.Content {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.ProductGallery {
+  font-family: "Archivo Narrow", sans-serif;
+}
+.ProductGallery img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 1px rgb(29, 28, 28);
+}
+.ProductGallery h3 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.ProductGallery p {
+  font-size: 20px;
+}
+.BuyerBio form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Warnain Placeholder */
+.BioInput::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ce5a67;
+}
+.BioInput::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ce5a67;
+}
+.BioInput:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ce5a67;
+}
+.BioInput:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ce5a67;
+}
+
+/* Warna Placeholder N */
+
+.BuyerBio input {
+  text-align: center;
+  font-family: "Archivo Narrow", sans-serif;
+  width: 250px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(252, 245, 237, 0.8);
+}
+
+.BuyerBio button {
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: rgba(0, 169, 255, 1);
+  font-family: "Archivo Narrow", sans-serif;
+}
+
+.BuyerBio button:hover {
+  background-color: rgb(1, 142, 213);
+}

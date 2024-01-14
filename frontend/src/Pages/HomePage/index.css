@@ -1,0 +1,30 @@
+.HomeContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+
+.HomeImage {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HomeGreetings {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+}
+.HomeGreetings h1 {
+  font-family: "Jomhuria", serif;
+  font-size: 100px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.HomeImage img {
+  height: 250px;
+  border-radius: 10px;
+}
